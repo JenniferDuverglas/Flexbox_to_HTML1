@@ -1,0 +1,35 @@
+* {
+     box-sizing: border-box;
+}
+*:before, *:after {
+     box-sizing: inherit;
+
+}
+.container{
+    width: 56rem;
+    margin: 3rem auto;
+}
+header{
+    border-bottom: 1px dotted #bbbbbb;
+    width: 25rem;
+    margin-bottom: 4rem;
+}
+
+section{
+    margin-bottom: 3rem;
+}
+
+.stephen_curry{
+    border-radius: 80px;
+    border: 2px dotted blue
+
+}
+
+header{
+    position: sticky;
+    top: -15px;
+    padding-top: 15px;
+    opacity: 1;
+    background-color: white;
+
+}
